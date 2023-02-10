@@ -1,0 +1,4 @@
+baseURL = 'http://rraines.xyz/'
+languageCode = 'en-us'
+title = 'What is Rob up to?'
+theme = 'ananke'
