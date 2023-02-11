@@ -22,7 +22,3 @@ resourceDir = "../resources"
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/rraines13"
-
-name: "facebook"
-url: https://social.example.com/@username
-rel: me noopener
