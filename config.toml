@@ -4,13 +4,6 @@ title = 'What is Rob up to?'
 theme = 'ananke'
 resourceDir = "../resources"
 
-[languages]
-  [languages.en]
-    title = "Ananke"
-    weight = 1
-    contentDir = "content/en"
-    # languageDirection = 'rtl' for Right-To-Left languages
-
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -18,7 +11,7 @@ resourceDir = "../resources"
 
 [params]
   text_color = ""
-  author = ""
+  author = "Rob Raines"
   favicon = ""
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
@@ -29,3 +22,7 @@ resourceDir = "../resources"
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/rraines13"
+
+name: "facebook"
+url: https://social.example.com/@username
+rel: me noopener
