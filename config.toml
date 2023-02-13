@@ -2,7 +2,7 @@
 baseURL = 'http://rraines.xyz/'
 title = 'What is Rob up to?'
 # theme
-theme = 'ananke'
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 # disable language
 languageCode = 'en-us'
 disableLanguages = [""] # desable language from here
