@@ -8,6 +8,9 @@ languageCode = 'en-us'
 disableLanguages = [""] # desable language from here
 resourceDir = "../resources"
 
+enableRobotsTXT = true
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
