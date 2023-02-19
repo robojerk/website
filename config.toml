@@ -18,6 +18,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 
 ######################### Default Parameters ###########################
 [params]
+mainSections = [ "post" ]
 #  text_color = ""
   author = "Rob Raines"
 #  favicon = ""
@@ -33,5 +34,8 @@ rssLimit = 20
 search = true
 
 ############################## Social Site ##########################
+### [[params.ananke_socials]]
+### name = "twitter"
+### url = "https://twitter.com/rraines13"
 
 ####################### Banner #######################################
