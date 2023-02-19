@@ -18,20 +18,33 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 
 ######################### Default Parameters ###########################
 [params]
-mainSections = [ "post" ]
-#  text_color = ""
+  mainSections = "post"
+  featuredImageField = "image"
+  rssFullContent = true
+  #  text_color = ""
   author = "Rob Raines"
-#  favicon = ""
-#  site_logo = ""
-#  description = "The last theme you'll ever need. Maybe."
-  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  #favicon = ""
+  #site_logo = ""
+  #description = "The last theme you'll ever need. Maybe."
+  #choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
   background_color_class = "bg-dark-gray"
   recent_posts_number = 3
-# copyright
-copyright = ""
-rssLimit = 20
-# search *** true or false (if Search is disable Menu will align in Right) ***
-search = true
+  copyright = ""
+  rssLimit = 20
+  # search *** true or false (if Search is disable Menu will align in Right) ***
+  search = true
+
+[params.footer]
+  since = 2023
+
+[params.article]
+  math = false
+  toc = true
+  readingTime = true
+
+[params.article.license]
+  enabled = true
+  default = "Licensed under CC BY-NC-SA 4.0"
 
 ############################## Social Site ##########################
 ### [[params.ananke_socials]]
