@@ -33,8 +33,5 @@ rssLimit = 20
 search = true
 
 ############################## Social Site ##########################
-### [[params.ananke_socials]]
-### name = "twitter"
-### url = "https://twitter.com/rraines13"
 
 ####################### Banner #######################################
