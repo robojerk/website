@@ -18,7 +18,7 @@ Paginate = 3 # this is set low for demonstrating with dummy content. Set to a hi
 
 ######################### Default Parameters ###########################
 [params]
-  mainSections = [ "post" ]
+  mainSections = [ "posts" ]
   featuredImageField = "image"
   rssFullContent = true
   #  text_color = ""
